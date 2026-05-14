@@ -20,7 +20,8 @@ class stack{
             top = NULL; // awalnya top itu NULL
         }
 
-        int push(int value){
+        // push buat nambah data ya
+        int push(int value){ 
             node *newNode = new node(); // buat node baru
             newNode->data = value; // isi data node baru dengan value yang diberikan
             newNode->next = top; // buat next node baru menunjuk ke top (node sebelumnya)
@@ -28,5 +29,9 @@ class stack{
             cout << "Push value: " << value << endl;    
             return value;   
         }
+
+        // pop buat ngambil/ngapus data dari stack
+        void pop(){}
+
 };
 
