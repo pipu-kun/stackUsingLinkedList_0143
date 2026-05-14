@@ -15,5 +15,7 @@ class node{
 class stack{
     private:
         node* top; // ini dia bintang kita (pointer top)
+    public:
+        stack(){}
 };
 
