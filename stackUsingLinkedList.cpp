@@ -54,5 +54,8 @@ class stack{
             }
         }
 
+        bool isEmpty(){
+            
+        }
 };
 
