@@ -45,10 +45,10 @@ class stack{
             if (top == NULL){
                 cout << "List is empty." << endl;
             }else{
-                node *current = top;
-                    while (current != NULL){
-                        cout << current->data << " " << endl;
-                        current = current->next;
+                node *current = top; // buat pointer sementara untuk menyimpan node yang akan ditampilkan (node top saat ini)
+                    while (current != NULL){ 
+                        cout << current->data << " " << endl; // tampilkan nilai dari node saat ini
+                        current = current->next; // update pointer sementara untuk menunjuk ke node berikutnya (node di bawah node saat ini)
                     }
                 cout << endl;
             }
