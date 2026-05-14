@@ -72,6 +72,34 @@ int main(){
         cout << "4.Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
+
+        switch (choice){
+        case 1:
+            cout << "Enter the value to push: ";
+            cin >> value;
+            s.push (value) ;
+            break;
+        case 2:
+            if (!s.isEmpty()) {
+                s.pop();
+            } else {
+                cout << "Stack is empty. Cannot pop." << endl;
+            }
+            break;
+        case 3:
+            if (!s.isEmpty()) {
+                s.peek();
+            } else {
+                cout << "Stack is empty. No top value." << endl;
+            }
+            break;
+        case 4:
+            cout << "Exiting..." << endl;
+            break;
+        default:
+            cout << "kalo milih mikir mas, yang bener aja lu!\n";
+            break;
+        }
     }
 
 
