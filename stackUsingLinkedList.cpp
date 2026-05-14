@@ -59,3 +59,5 @@ class stack{
         }
 };
 
+int main(){}
+
