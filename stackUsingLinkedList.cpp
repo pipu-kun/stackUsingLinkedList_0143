@@ -12,5 +12,8 @@ class node{
         }
 };
 
-class stack{};
+class stack{
+    private:
+        node* top; // ini dia bintang kita (pointer top)
+};
 
