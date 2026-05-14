@@ -40,7 +40,19 @@ class stack{
             cout << "Popped value: " << top->data << endl; // tampilkan nilai yang di-pop (nilai dari node yang sekarang menjadi top setelah update)
         }
 
-        void peek(){}
+        void peek(){
+
+            if (top == NULL){
+                cout << "List is empty." << endl;
+            }else{
+                node *current = top;
+                    while (current != NULL){
+                        cout << current->data << " " << endl;
+                        current = current->next;
+                    }
+                cout << endl;
+            }
+        }
 
 };
 
