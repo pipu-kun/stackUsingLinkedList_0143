@@ -35,10 +35,12 @@ class stack{
             if (isEmpty()){
                 cout << "Stack is empty." << endl;
             }
-            node *temp = top;
-            top = top->next;
-            cout << "Popped value: " << top->data << endl;
+            node *temp = top; // buat pointer sementara untuk menyimpan node yang akan dihapus (node top saat ini)
+            top = top->next; // update top untuk menunjuk ke node berikutnya (node di bawah top saat ini)
+            cout << "Popped value: " << top->data << endl; // tampilkan nilai yang di-pop (nilai dari node yang sekarang menjadi top setelah update)
         }
+
+        void peek(){}
 
 };
 
