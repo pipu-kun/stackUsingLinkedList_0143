@@ -55,7 +55,7 @@ class stack{
         }
 
         bool isEmpty(){
-            
+            return top == NULL; // stack kosong jika top adalah NULL
         }
 };
 
