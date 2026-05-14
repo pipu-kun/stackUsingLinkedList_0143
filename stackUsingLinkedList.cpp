@@ -19,5 +19,7 @@ class stack{
         stack(){
             top = NULL; // awalnya top itu NULL
         }
+
+        int push(int value){}
 };
 
