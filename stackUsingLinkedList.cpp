@@ -31,7 +31,14 @@ class stack{
         }
 
         // pop buat ngambil/ngapus data dari stack
-        void pop(){}
+        void pop(){
+            if (isEmpty()){
+                cout << "Stack is empty." << endl;
+            }
+            node *temp = top;
+            top = top->next;
+            cout << "Popped value: " << top->data << endl;
+        }
 
 };
 
