@@ -7,6 +7,8 @@ class node{
         int data;
         node* next;
 
-        node(){}
+        node(){
+            next = NULL;
+        }
 };
 
