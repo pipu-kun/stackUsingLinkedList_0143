@@ -2,4 +2,7 @@
 #include <string>
 using namespace std;
 
-class node{};
+class node{
+    public:
+        int data;
+};
