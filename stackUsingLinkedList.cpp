@@ -16,6 +16,8 @@ class stack{
     private:
         node* top; // ini dia bintang kita (pointer top)
     public:
-        stack(){}
+        stack(){
+            top = NULL; // awalnya top itu NULL
+        }
 };
 
